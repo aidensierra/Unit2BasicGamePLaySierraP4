@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8616496344811982765}
   - component: {fileID: 350122389930680779}
   - component: {fileID: 1103224933238489688}
+  - component: {fileID: 3348388200941082843}
+  - component: {fileID: 7596859899385902940}
   m_Layer: 0
   m_Name: Pizza
   m_TagString: Untagged
@@ -27,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4622919469406946357}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.14, y: 0.0662, z: 4.88}
   m_LocalScale: {x: 4.359025, y: 1, z: 3.7563856}
   m_ConstrainProportionsScale: 0
@@ -100,3 +102,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 40
+--- !u!114 &3348388200941082843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4622919469406946357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f13a271605cb38479d01be2e80ae072, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &7596859899385902940
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4622919469406946357}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.45970097, y: 0.13234863, z: 0.5744903}
+  m_Center: {x: 0, y: 0, z: 0.004279606}
